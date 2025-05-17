@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: whitesmoke;
+    background: none;
+}
+
+.option {
+    background-color: rgb(28, 28, 28);
+}
+
+.bg-image {
+    background-image: url(mars-img/mars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mars-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 131px;
+    width: 580px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.loog-offert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.offerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.offerta-item {
+    font-size: 18px;
+    color: #d1d1d1;
+    transition: 450ms ease;
+}
+
+.offerta-item:hover {
+    color: #F0400F;
+}
+
+.reg-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.welcome-space {
+    font-size: 35px;
+    color: #02005f;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px white;
+    position: relative;
+    bottom: 50px;
+}
+
+.jins {
+    width: 433px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.jins-btn {
+    width: 155px;
+    padding: 10px;
+    border: none;
+    color: #757575;
+    font-size: 18px;
+    background: none;
+    transition: 450ms ease;
+    cursor: pointer;
+}
+
+.jins-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+input {
+    width: 433px;
+    padding: 15px;
+    color: black;
+    background: #FAFAFA;
+    border: 1px solid #75757530;
+    border-radius: 20px;
+    font-size: 24px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #757575B2;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.qr-code {
+    color: #fdfdfda3;
+    font-size: 20px;
+    transition: 450ms ease;
+}
+
+.qr-code:hover {
+    color: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    width: 202px;
+    padding: 17px;
+    color: white;
+    background-color: #ff6136;
+    opacity: 50%;
+    transition: 450ms ease;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.submit-btn:hover {
+    opacity: 100%;
+}
+
+.space-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.header-space {
+    background-color: #242424;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    padding: 16px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.info-item {
+    color: #AAAAAA;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 450ms ease;
+}
+
+.info-item:hover {
+    font-size: 18px;
+    color: black;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 380px;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 16px;
+    margin: 12% auto;
+}
+
+.daraja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    width: 280px;
+    padding: 5px;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.teacher-student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.student-name {
+    color: #0E0D5D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.teacher-name {
+    font-size: 16px;
+    color: #BDBDBD;
+    font-weight: 600;
+}
+
+.coin-rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 380px;
+    padding: 16px;
+    background: linear-gradient(286.17deg, #E33D0E 0%, #FF7D58 100%);
+    border-radius: 16px;
+}
+
+.coin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.coin-number {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.rank-number {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.information {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    padding: 16px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+@media (max-width:450px) {
+    .bg-image {
+        background-image: url(mars-img/mars.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 130vh;
+    }
+
+    .mars-log {
+        width: 350px;
+        padding: 20px;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .loog-offert {
+        gap: 100px;
+    }
+
+    .offerta-item {
+        font-size: 12px;
+    }
+
+    .kirish-img {
+        width: 15px;
+    }
+
+    .welcome-space {
+        font-size: 24px;
+        position: relative;
+        bottom: 0;
+    }
+
+    input {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .jins {
+        width: 300px;
+    }
+
+    .submit-btn {
+        margin-left: 0;
+    }
+
+    .laungage {
+        width: 30px;
+    }
+
+    .select {
+        gap: 5px;
+    }
+
+    select {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .logo-mars {
+        width: 100px;
+    }
+
+    .box2 {
+        width: 101px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .info-item {
+        font-size: 12px;
+    }
+
+    .info-box {
+        width: 300px;
+    }
+
+    .coin-rank {
+        width: 300px;
+        gap: 60px;
+    }
+
+    .coin-number{
+        font-size: 24px;
+    }
+
+    .rank-number{
+        font-size: 24px;
+    }
+}

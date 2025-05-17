@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mars Space</title>
+</head>
+
+<body>
+    <header class="bg-image">
+        <div class="container">
+            <div class="header">
+                <img src="mars-img/mars-logo.svg" alt="logo">
+
+
+                <div class="select">
+                    <img src="mars-img/laungage.svg" alt="">
+                    <select onchange="window.location.href=this.value">
+                        <option class="option" value="">Рус</option>
+                        <option class="option" value="index.html">O'zb</option>
+                        <option class="option" value="rus.html">Рус</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="mars-log">
+                <div class="loog-offert">
+                    <img src="mars-img/mars-logo.svg" alt="">
+                    <div class="offerta">
+                        <a href="#" class="offerta-item">Подписание оферты</a>
+                        <img src="mars-img/kirish.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="reg-log">
+                    <h1 class="welcome-space">Добро пожаловать в Space !</h1>
+
+                    <div class="jins">
+                        <button id="oquvchi" class="jins-btn">Cтудент</button>
+                        <button id="otaOna" class="jins-btn">Родители</button>
+                    </div>
+
+                    <form id="form">
+                        <input id="login" type="number" placeholder="Введите ID">
+                        <input id="password" type="password" placeholder="Введите пароль">
+                        <a href="#" class="qr-code">Вход по QR-коду</a>
+                        <button class="submit-btn">Подтвердить</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

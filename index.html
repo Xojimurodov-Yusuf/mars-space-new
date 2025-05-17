@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mars Space</title>
+</head>
+
+<body>
+    <header class="bg-image">
+        <div class="container">
+            <div class="header">
+                <img class="logo" src="mars-img/mars-logo.svg" alt="logo">
+
+
+                <div class="select">
+                    <img class="laungage" src="mars-img/laungage.svg" alt="">
+                    <select onchange="window.location.href=this.value">
+                        <option class="option" value="">Ozb</option>
+                        <option class="option" value="index.html">O'zb</option>
+                        <option class="option" value="rus.html">Рус</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="mars-log">
+                <div class="loog-offert">
+                    <img class="logo" src="mars-img/mars-logo.svg" alt="">
+                    <div class="offerta">
+                        <a href="#" class="offerta-item">Offerta Imzolash</a>
+                        <img class="kirish-img" src="mars-img/kirish.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="reg-log">
+                    <h1 class="welcome-space">Spacega Xush Kelibsiz !</h1>
+
+                    <div class="jins">
+                        <button id="oquvchi" class="jins-btn">O'quvchi</button>
+                        <button id="otaOna" class="jins-btn">Ota-Ona</button>
+                    </div>
+
+                    <form id="form">
+                        <input id="login" type="number" placeholder="ID ni kiriting">
+                        <input id="password" type="password" placeholder="Parolingizni kiriting">
+                        <p id="xato"></p>
+                        <a href="#" class="qr-code">QR code orqali kirish</a>
+                        <button class="submit-btn">Подтвердить</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+    <script src="student.js"></script>
+</body>
+
+</html>
